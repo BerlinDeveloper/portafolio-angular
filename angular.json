@@ -58,7 +58,7 @@
               "namedChunks": true
             }
           },
-          "defaultConfiguration": "production"
+          "defaultConfiguration": "producticlson"
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
@@ -97,5 +97,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "487ab0e6-b465-4168-a4ba-1c1c7d59307f"
   }
 }
