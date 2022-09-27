@@ -5,7 +5,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 
 
-
+import { HttpClientModule } from '@angular/common/http';
 
 // componentes
 import { AppComponent } from './app.component';
@@ -27,8 +27,10 @@ import { ItemComponent } from './pages/item/item.component';
   // dentro de los imports van los modulos
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
+  
   providers: [],
   bootstrap: [AppComponent]
 })
